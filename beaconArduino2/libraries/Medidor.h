@@ -2,7 +2,7 @@
 
 #ifndef MEDIDOR_H_INCLUIDO
 #define MEDIDOR_H_INCLUIDO
-
+#include "libraries.h"
 // ------------------------------------------------------
 // ------------------------------------------------------
 class Medidor {

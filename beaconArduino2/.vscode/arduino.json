@@ -1,0 +1,7 @@
+{
+    "sketch": "beaconArduino2.ino",
+    "output": "build",
+    "configuration": "softdevice=s140v6,debug=l0",
+    "board": "adafruit:nrf52:sparkfunnrf52840mini",
+    "port": "COM3"
+}

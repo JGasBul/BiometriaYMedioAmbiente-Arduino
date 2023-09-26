@@ -14,10 +14,9 @@
 #include <bluefruit_common.h>
 #include <bluefruit.h>
 
-
 // --------------------------------------------------------------
 // --------------------------------------------------------------
-//#include <bluefruit.h>
+// #include <bluefruit.h>
 
 #include "./libraries/LED.h"
 #include "./libraries/PuertoSerie.h"
@@ -27,11 +26,11 @@
 namespace Globales
 {
 
-    LED elLED ( /* NUMERO DEL PIN LED = */ 7 );
+  LED elLED(/* NUMERO DEL PIN LED = */ 7);
 
-    PuertoSerie elPuerto(/* velocidad = */ 115200); // 115200 o 9600 o ...
+  PuertoSerie elPuerto(/* velocidad = */ 115200); // 115200 o 9600 o ...
 
-    // Serial1 en el ejemplo de Curro creo que es la conexión placa-sensor
+  // Serial1 en el ejemplo de Curro creo que es la conexión placa-sensor
 };
 
 // --------------------------------------------------------------
@@ -45,9 +44,9 @@ namespace Globales
 namespace Globales
 {
 
-    Publicador elPublicador;
+  Publicador elPublicador;
 
-    Medidor elMedidor;
+  Medidor elMedidor;
 
 }; // namespace
 
@@ -56,131 +55,129 @@ namespace Globales
 void inicializarPlaquita()
 {
 
-    // de momento nada
+  // de momento nada
 
 } // ()
 
 void setup()
 {
-    Globales::elPuerto.esperarDisponible();
+  Globales::elPuerto.esperarDisponible();
 
-    //
-    //
-    //
-    inicializarPlaquita();
+  //
+  //
+  //
+  inicializarPlaquita();
 
-    // Suspend Loop() to save power
-    // suspendLoop();
+  // Suspend Loop() to save power
+  // suspendLoop();
 
-    //
-    //
-    //
-    Globales::elPublicador.encenderEmisora();
+  //
+  //
+  //
+  Globales::elPublicador.encenderEmisora();
 
-    // Globales::elPublicador.laEmisora.pruebaEmision();
+  // Globales::elPublicador.laEmisora.pruebaEmision();
 
-    //
-    //
-    //
-    Globales::elMedidor.iniciarMedidor();
+  //
+  //
+  //
+  Globales::elMedidor.iniciarMedidor();
 
-    //
-    //
-    //
-    esperar(1000);
+  //
+  //
+  //
+  esperar(1000);
 
-    Globales::elPuerto.escribir("---- setup(): fin ---- \n ");
+  Globales::elPuerto.escribir("---- setup(): fin ---- \n ");
 
 } // setup ()
 
 // --------------------------------------------------------------
 // --------------------------------------------------------------
-inline void lucecitas() {
+inline void lucecitas()
+{
   using namespace Globales;
 
-  elLED.brillar( 100 ); // 100 encendido
-  esperar ( 400 ); //  100 apagado
-  elLED.brillar( 100 ); // 100 encendido
-  esperar ( 400 ); //  100 apagado
-  Globales::elLED.brillar( 100 ); // 100 encendido
-  esperar ( 400 ); //  100 apagado
-  Globales::elLED.brillar( 1000 ); // 1000 encendido
-  esperar ( 1000 ); //  100 apagado
+  elLED.brillar(100);            // 100 encendido
+  esperar(400);                  //  100 apagado
+  elLED.brillar(100);            // 100 encendido
+  esperar(400);                  //  100 apagado
+  Globales::elLED.brillar(100);  // 100 encendido
+  esperar(400);                  //  100 apagado
+  Globales::elLED.brillar(1000); // 1000 encendido
+  esperar(1000);                 //  100 apagado
 } // ()
 
 // --------------------------------------------------------------
 // loop ()
 // --------------------------------------------------------------
-namespace Loop {
+namespace Loop
+{
   uint8_t cont = 0;
 };
 
 // ..............................................................
 // ..............................................................
-void loop () {
+void loop()
+{
 
   using namespace Loop;
   using namespace Globales;
 
   cont++;
 
-  elPuerto.escribir( "\n---- loop(): empieza " );
-  elPuerto.escribir( cont );
-  elPuerto.escribir( "\n" );
-
+  elPuerto.escribir("\n---- loop(): empieza ");
+  elPuerto.escribir(cont);
+  elPuerto.escribir("\n");
 
   lucecitas();
+  /*
+    //
+    // mido y publico (En estos metodos se calcula el co2 y se emite.)
+    //
+    int valorCO2 = elMedidor.medirCO2();
+*/
+  elPublicador.publicarCO2(50,
+                           cont,
+                           1000 // intervalo de emisión
+  );
+  /*
+      //
+      // mido y publico
+      //
+      int valorTemperatura = elMedidor.medirTemperatura();
 
-  // 
-  // mido y publico
-  // 
-  int valorCO2 = elMedidor.medirCO2();
-  
-  elPublicador.publicarCO2( valorCO2,
-							cont,
-							1000 // intervalo de emisión
-							);
-  
-  // 
-  // mido y publico
-  // 
-  int valorTemperatura = elMedidor.medirTemperatura();
-  
-  elPublicador.publicarTemperatura( valorTemperatura, 
-									cont,
-									1000 // intervalo de emisión
-									);
+      elPublicador.publicarTemperatura( valorTemperatura,
+                      cont,
+                      1000 // intervalo de emisión
+                      );
 
-  // 
-  // prueba para emitir un iBeacon y poner
-  // en la carga (21 bytes = uuid 16 major 2 minor 2 txPower 1 )
-  // lo que queramos (sin seguir dicho formato)
-  // 
-  // Al terminar la prueba hay que hacer Publicador::laEmisora privado
-  // 
-  char datos[21] = {
-	'H', 'o', 'l', 'a',
-	'H', 'o', 'l', 'a',
-	'H', 'o', 'l', 'a',
-	'H', 'o', 'l', 'a',
-	'H', 'o', 'l', 'a',
-	'H'
-  };
 
-  // elPublicador.laEmisora.emitirAnuncioIBeaconLibre ( &datos[0], 21 );
-  elPublicador.laEmisora.emitirAnuncioIBeaconLibre ( "MolaMolaMolaMolaMolaM", 21 );
 
-  esperar( 2000 );
+    //
+    // prueba para emitir un iBeacon y poner
+    // en la carga (21 bytes = uuid 16 major 2 minor 2 txPower 1 )
+    // lo que queramos (sin seguir dicho formato)
+    //
+    // Al terminar la prueba hay que hacer Publicador::laEmisora privado
+    //
+    char datos[23] = {
+        'H', 'o', 'l', 'a',' ','e','s','t','o',' ','e','s',' ','u','n','a',' ','p','r','u','e','b','a'};
 
-  elPublicador.laEmisora.detenerAnuncio();
-  
-  // 
-  // 
-  // 
-  elPuerto.escribir( "---- loop(): acaba **** " );
-  elPuerto.escribir( cont );
-  elPuerto.escribir( "\n" );
-  
+    // elPublicador.laEmisora.emitirAnuncioIBeaconLibre ( &datos[0], 21 );
+    elPublicador.laEmisora.emitirAnuncioIBeaconLibre("MolaMolaMolaMolaMolaM", 23);
+
+    esperar(2000);
+
+    elPublicador.laEmisora.detenerAnuncio();
+  */
+  //
+  //
+  //
+  elPuerto.escribir("---- loop(): acaba ");
+  elPuerto.escribir(cont);
+  elPuerto.escribir("\n");
+
 } // loop ()
 // --------------------------------------------------------------
 // --------------------------------------------------------------

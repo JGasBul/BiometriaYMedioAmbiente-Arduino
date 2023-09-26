@@ -1,0 +1,512 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\cores\\nRF5"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\variants\\sparkfun_nrf52840_mini"
+  },
+  {
+    "Sourcefile": "D:\\Personal\\ProyectosUni\\3Anyo\\ProyectoBiometria\\Codigo\\git\\BiometriaYMedioAmbiente-Arduino\\beaconArduino2\\build\\sketch\\beaconArduino2.ino.cpp",
+    "Include": "BLEAdvertising.h",
+    "Includepath": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src"
+  },
+  {
+    "Sourcefile": "D:\\Personal\\ProyectosUni\\3Anyo\\ProyectoBiometria\\Codigo\\git\\BiometriaYMedioAmbiente-Arduino\\beaconArduino2\\build\\sketch\\beaconArduino2.ino.cpp",
+    "Include": "Adafruit_nRFCrypto.h",
+    "Includepath": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_nRFCrypto\\src"
+  },
+  {
+    "Sourcefile": "D:\\Personal\\ProyectosUni\\3Anyo\\ProyectoBiometria\\Codigo\\git\\BiometriaYMedioAmbiente-Arduino\\beaconArduino2\\build\\sketch\\beaconArduino2.ino.cpp",
+    "Include": "Adafruit_TinyUSB.h",
+    "Includepath": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src"
+  },
+  {
+    "Sourcefile": "D:\\Personal\\ProyectosUni\\3Anyo\\ProyectoBiometria\\Codigo\\git\\BiometriaYMedioAmbiente-Arduino\\beaconArduino2\\build\\sketch\\beaconArduino2.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\BLEAdvertising.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\BLECentral.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\BLECharacteristic.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\BLEClientCharacteristic.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\BLEClientService.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\BLEConnection.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\BLEDiscovery.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\BLEGatt.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\BLEPeriph.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\BLEScanner.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\BLESecurity.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\BLEService.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\BLEUuid.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\bluefruit.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\clients\\BLEAncs.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\clients\\BLEClientBas.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\clients\\BLEClientCts.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\clients\\BLEClientDis.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\clients\\BLEClientHidAdafruit.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\clients\\BLEClientIas.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\clients\\BLEClientUart.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\services\\BLEBas.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\services\\BLEBeacon.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\services\\BLEDfu.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\services\\BLEDis.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\services\\BLEHidAdafruit.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\services\\BLEHidGamepad.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\services\\BLEHidGeneric.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\services\\BLEIas.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\services\\BLEMidi.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\services\\BLEUart.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\services\\EddyStone.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\utility\\AdaMsg.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\utility\\bonding.cpp",
+    "Include": "Adafruit_LittleFS.h",
+    "Includepath": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_LittleFS\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\utility\\bonding.cpp",
+    "Include": "InternalFileSystem.h",
+    "Includepath": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\InternalFileSytem\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\utility\\bonding.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Bluefruit52Lib\\src\\utility\\bootloader_util.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_nRFCrypto\\src\\Adafruit_nRFCrypto.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_nRFCrypto\\src\\ecc\\nRFCrypto_ECC.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_nRFCrypto\\src\\ecc\\nRFCrypto_ECC_PrivateKey.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_nRFCrypto\\src\\ecc\\nRFCrypto_ECC_PublicKey.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_nRFCrypto\\src\\nRFCrypto_Hash.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_nRFCrypto\\src\\nRFCrypto_Hmac.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_nRFCrypto\\src\\nRFCrypto_Random.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\arduino\\Adafruit_TinyUSB_API.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\arduino\\Adafruit_USBD_CDC.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\arduino\\Adafruit_USBD_Device.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\arduino\\Adafruit_USBH_Host.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\arduino\\cdc\\Adafruit_USBH_CDC.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\arduino\\hid\\Adafruit_USBD_HID.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\arduino\\midi\\Adafruit_USBD_MIDI.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\arduino\\msc\\Adafruit_USBD_MSC.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\arduino\\msc\\Adafruit_USBH_MSC.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\arduino\\ports\\esp32\\Adafruit_TinyUSB_esp32.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\arduino\\ports\\nrf\\Adafruit_TinyUSB_nrf.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\arduino\\ports\\rp2040\\Adafruit_TinyUSB_rp2040.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\arduino\\ports\\samd\\Adafruit_TinyUSB_samd.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\arduino\\webusb\\Adafruit_USBD_WebUSB.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\class\\audio\\audio_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\class\\bth\\bth_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\class\\cdc\\cdc_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\class\\cdc\\cdc_host.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\class\\dfu\\dfu_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\class\\dfu\\dfu_rt_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\class\\hid\\hid_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\class\\hid\\hid_host.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\class\\midi\\midi_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\class\\msc\\msc_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\class\\msc\\msc_host.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\class\\net\\ecm_rndis_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\class\\net\\ncm_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\class\\usbtmc\\usbtmc_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\class\\vendor\\vendor_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\class\\video\\video_device.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\common\\tusb_fifo.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\device\\usbd.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\device\\usbd_control.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\host\\hub.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\host\\usbh.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\portable\\chipidea\\ci_hs\\dcd_ci_hs.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\portable\\chipidea\\ci_hs\\hcd_ci_hs.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\portable\\microchip\\samd\\dcd_samd.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\portable\\nordic\\nrf5x\\dcd_nrf5x.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\portable\\raspberrypi\\pio_usb\\dcd_pio_usb.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\portable\\raspberrypi\\pio_usb\\hcd_pio_usb.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\portable\\raspberrypi\\rp2040\\dcd_rp2040.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\portable\\raspberrypi\\rp2040\\hcd_rp2040.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\portable\\raspberrypi\\rp2040\\rp2040_usb.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_TinyUSB_Arduino\\src\\tusb.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_LittleFS\\src\\Adafruit_LittleFS.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_LittleFS\\src\\Adafruit_LittleFS_File.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_LittleFS\\src\\littlefs\\lfs.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\Adafruit_LittleFS\\src\\littlefs\\lfs_util.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\InternalFileSytem\\src\\InternalFileSystem.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\InternalFileSytem\\src\\flash\\flash_cache.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\Pepeg\\AppData\\Local\\Arduino15\\packages\\adafruit\\hardware\\nrf52\\1.5.0\\libraries\\InternalFileSytem\\src\\flash\\flash_nrf5x.c",
+    "Include": "",
+    "Includepath": null
+  }
+]
