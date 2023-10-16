@@ -1,0 +1,8 @@
+#line 1 "D:\\Personal\\ProyectosUni\\3Anyo\\ProyectoBiometria\\Codigo\\git\\BiometriaYMedioAmbiente-Arduino\\beaconArduino2\\.vscode\\arduino.json"
+{
+    "sketch": "beaconArduino2.ino",
+    "output": "build",
+    "configuration": "softdevice=s140v6,debug=l0",
+    "board": "adafruit:nrf52:sparkfunnrf52840mini",
+    "port": "COM5"
+}
