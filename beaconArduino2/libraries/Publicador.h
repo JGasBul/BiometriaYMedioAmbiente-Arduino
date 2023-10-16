@@ -2,10 +2,12 @@
 #define PUBLICADOR_H_INCLUIDO
 #include "libraries.h"
 #include "EmisoraBLE.h"
-// --------------------------------------------------------------
-// Pepe Gascó Bule
-// 2023
-// --------------------------------------------------------------
+/*!
+* \brief Clase que se encarga de publicar en el beacon la informacion necesaria 
+* \author Pepe Gascó Bule
+* \version 1.0
+* \date 2023
+ */
 class Publicador
 {
 private:

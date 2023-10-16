@@ -8,10 +8,13 @@
 #include "./libraries/PuertoSerie.h"
 #include "./libraries/ServicioEnEmisora.h"
 
-// ----------------------------------------------------------
-// Pepe Gascó Bule
-// 2023
-// ----------------------------------------------------------
+/*!
+* \brief Columna vertebral del proyecto. Desde aqui se controla todo
+* \details Tenemos todos los metodos necesarios para que la app funcione
+* \author Pepe Gascó Bule
+* \version 1.0
+* \date 2023
+ */
 
 namespace Globales
 {
@@ -25,19 +28,19 @@ namespace Loop
     uint8_t cont = 0;
 };
 
-#line 26 "D:\\Personal\\ProyectosUni\\3Anyo\\ProyectoBiometria\\Codigo\\git\\BiometriaYMedioAmbiente-Arduino\\beaconArduino2\\beaconArduino2.ino"
+#line 29 "D:\\Personal\\ProyectosUni\\3Anyo\\ProyectoBiometria\\Codigo\\git\\BiometriaYMedioAmbiente-Arduino\\beaconArduino2\\beaconArduino2.ino"
 void setup();
-#line 36 "D:\\Personal\\ProyectosUni\\3Anyo\\ProyectoBiometria\\Codigo\\git\\BiometriaYMedioAmbiente-Arduino\\beaconArduino2\\beaconArduino2.ino"
+#line 39 "D:\\Personal\\ProyectosUni\\3Anyo\\ProyectoBiometria\\Codigo\\git\\BiometriaYMedioAmbiente-Arduino\\beaconArduino2\\beaconArduino2.ino"
 void lucecitas();
-#line 66 "D:\\Personal\\ProyectosUni\\3Anyo\\ProyectoBiometria\\Codigo\\git\\BiometriaYMedioAmbiente-Arduino\\beaconArduino2\\beaconArduino2.ino"
+#line 69 "D:\\Personal\\ProyectosUni\\3Anyo\\ProyectoBiometria\\Codigo\\git\\BiometriaYMedioAmbiente-Arduino\\beaconArduino2\\beaconArduino2.ino"
 void medicionesco2();
-#line 78 "D:\\Personal\\ProyectosUni\\3Anyo\\ProyectoBiometria\\Codigo\\git\\BiometriaYMedioAmbiente-Arduino\\beaconArduino2\\beaconArduino2.ino"
+#line 81 "D:\\Personal\\ProyectosUni\\3Anyo\\ProyectoBiometria\\Codigo\\git\\BiometriaYMedioAmbiente-Arduino\\beaconArduino2\\beaconArduino2.ino"
 void medicionesTemperatura();
-#line 89 "D:\\Personal\\ProyectosUni\\3Anyo\\ProyectoBiometria\\Codigo\\git\\BiometriaYMedioAmbiente-Arduino\\beaconArduino2\\beaconArduino2.ino"
+#line 92 "D:\\Personal\\ProyectosUni\\3Anyo\\ProyectoBiometria\\Codigo\\git\\BiometriaYMedioAmbiente-Arduino\\beaconArduino2\\beaconArduino2.ino"
 void envioLibreBLE();
-#line 108 "D:\\Personal\\ProyectosUni\\3Anyo\\ProyectoBiometria\\Codigo\\git\\BiometriaYMedioAmbiente-Arduino\\beaconArduino2\\beaconArduino2.ino"
+#line 111 "D:\\Personal\\ProyectosUni\\3Anyo\\ProyectoBiometria\\Codigo\\git\\BiometriaYMedioAmbiente-Arduino\\beaconArduino2\\beaconArduino2.ino"
 void loop();
-#line 26 "D:\\Personal\\ProyectosUni\\3Anyo\\ProyectoBiometria\\Codigo\\git\\BiometriaYMedioAmbiente-Arduino\\beaconArduino2\\beaconArduino2.ino"
+#line 29 "D:\\Personal\\ProyectosUni\\3Anyo\\ProyectoBiometria\\Codigo\\git\\BiometriaYMedioAmbiente-Arduino\\beaconArduino2\\beaconArduino2.ino"
 void setup()
 {
     Globales::elPuerto.esperarDisponible();

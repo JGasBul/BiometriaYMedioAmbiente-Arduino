@@ -1,11 +1,12 @@
 #ifndef LED_H_INCLUIDO
 #define LED_H_INCLUIDO
 #include "libraries.h"
-// ----------------------------------------------------------
-// Librearia para usar los leds
-// Pepe Gascó Bule
-// 2023
-// ----------------------------------------------------------
+/*!
+* \brief Librearia para usar los leds 
+* \author Pepe Gascó Bule
+* \version 1.0
+* \date 2023
+ */
 
 // Metodo para esperar x tiempo.
 void esperar(long tiempo)

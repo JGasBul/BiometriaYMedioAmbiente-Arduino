@@ -7,11 +7,20 @@
 # 7 "D:\\Personal\\ProyectosUni\\3Anyo\\ProyectoBiometria\\Codigo\\git\\BiometriaYMedioAmbiente-Arduino\\beaconArduino2\\beaconArduino2.ino" 2
 # 8 "D:\\Personal\\ProyectosUni\\3Anyo\\ProyectoBiometria\\Codigo\\git\\BiometriaYMedioAmbiente-Arduino\\beaconArduino2\\beaconArduino2.ino" 2
 
-// ----------------------------------------------------------
-// Pepe Gascó Bule
-// 2023
-// ----------------------------------------------------------
+/*!
 
+* \brief Columna vertebral del proyecto. Desde aqui se controla todo
+
+* \details Tenemos todos los metodos necesarios para que la app funcione
+
+* \author Pepe Gascó Bule
+
+* \version 1.0
+
+* \date 2023
+
+ */
+# 17 "D:\\Personal\\ProyectosUni\\3Anyo\\ProyectoBiometria\\Codigo\\git\\BiometriaYMedioAmbiente-Arduino\\beaconArduino2\\beaconArduino2.ino"
 namespace Globales
 {
     LED elLED(7); // Para inicializar el led. En este caso el numero del pin led es el 7
@@ -126,7 +135,7 @@ void loop()
     envioLibreBLE();
 
     */
-# 125 "D:\\Personal\\ProyectosUni\\3Anyo\\ProyectoBiometria\\Codigo\\git\\BiometriaYMedioAmbiente-Arduino\\beaconArduino2\\beaconArduino2.ino"
+# 128 "D:\\Personal\\ProyectosUni\\3Anyo\\ProyectoBiometria\\Codigo\\git\\BiometriaYMedioAmbiente-Arduino\\beaconArduino2\\beaconArduino2.ino"
     esperar(2000);
     elPublicador.laEmisora.detenerAnuncio();
 

@@ -6,10 +6,13 @@
 #include "./libraries/PuertoSerie.h"
 #include "./libraries/ServicioEnEmisora.h"
 
-// ----------------------------------------------------------
-// Pepe Gascó Bule
-// 2023
-// ----------------------------------------------------------
+/*!
+* \brief App para enviar beacons desde un arduino. 
+* \details Columna vertebral del proyecto. Desde aqui se controla todo
+* \author Pepe Gascó Bule
+* \version 1.0
+* \date 2023
+ */
 
 namespace Globales
 {
@@ -22,7 +25,9 @@ namespace Loop
 {
     uint8_t cont = 0;
 };
-
+/**
+ * Setup del programa
+*/
 void setup()
 {
     Globales::elPuerto.esperarDisponible();
@@ -32,7 +37,9 @@ void setup()
     Globales::elPuerto.escribir("---- setup(): fin ---- \n ");
 }
 
-// --------------------------------------------------------------
+/**
+ * Metodo para encender y apagar el LED
+*/
 inline void lucecitas()
 {
     using namespace Globales;
@@ -62,7 +69,9 @@ inline void lucecitas()
     Globales::elLED.brillar(1000); // 1000 encendido
     esperar(1000);                 //  100 apagado
 }
-// --------------------------------------------------------------
+/**
+ * Metodo para mandar la medida de CO2
+*/
 void medicionesco2()
 {
     using namespace Loop;
@@ -74,7 +83,9 @@ void medicionesco2()
                              1000 // intervalo de emisión
     );
 }
-// --------------------------------------------------------------
+/**
+ * Metodo para medir y mandar la temperatura
+*/
 void medicionesTemperatura()
 {
     using namespace Loop;
@@ -85,7 +96,9 @@ void medicionesTemperatura()
                                      1000 // intervalo de emisión
     );
 }
-//---------------------------------------------------------------
+/**
+ * Metodo para enviar un mensaje cualquiera como beacon
+*/
 void envioLibreBLE()
 {
     using namespace Loop;
@@ -104,7 +117,9 @@ void envioLibreBLE()
     elPublicador.laEmisora.emitirAnuncioIBeaconLibre(&datos[0], 21);
     // elPublicador.laEmisora.emitirAnuncioIBeaconLibre("MolaMolaMolaMolaMolaM", 21);
 }
-
+/**
+ * Loop principal del programa
+*/
 void loop()
 {
     using namespace Loop;

@@ -1,11 +1,12 @@
 #ifndef PUERTO_SERIE_H_INCLUIDO
 #define PUERTO_SERIE_H_INCLUIDO
 #include "libraries.h"
-// ----------------------------------------------------------
-// Clase para controlar el puerto serie
-// Pepe Gascó Bule
-// 2023
-// ----------------------------------------------------------
+/*!
+* \brief Clase para controlar el puerto serie 
+* \author Pepe Gascó Bule
+* \version 1.0
+* \date 2023
+ */
 
 class PuertoSerie
 {

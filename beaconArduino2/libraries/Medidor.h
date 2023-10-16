@@ -3,8 +3,12 @@
 #ifndef MEDIDOR_H_INCLUIDO
 #define MEDIDOR_H_INCLUIDO
 #include "libraries.h"
-// ------------------------------------------------------
-// ------------------------------------------------------
+/*!
+* \brief Clase en desuso. Se dara uso mas adelante 
+* \author Pepe Gascó Bule
+* \version 0
+* \date 2023
+ */
 class Medidor {
 
   // .....................................................

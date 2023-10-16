@@ -1,8 +1,9 @@
-// ----------------------------------------------------------
-// Clase que se encarga de crear y irradiar el beacon
-// Pepe Gascó Bule
-// 2023
-// ----------------------------------------------------------
+/*!
+* \brief Clase que se encarga de crear y irradiar el beacon
+* \author Pepe Gascó Bule
+* \version 1.0
+* \date 2023
+ */
 #ifndef SERVICIO_EMISORA_H_INCLUIDO
 #define SERVICIO_EMISORA_H_INCLUIDO
 #include <vector>

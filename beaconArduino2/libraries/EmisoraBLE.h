@@ -1,10 +1,11 @@
 #ifndef EMISORA_H_INCLUIDO
 #define EMISORA_H_INCLUIDO
-// ----------------------------------------------------------
-// Libreria para la emisora de beacones en BLE
-// Pepe Gascó Bule
-// 2023
-// ----------------------------------------------------------
+/*!
+* \brief Libreria para la emisora de beacones en BLE 
+* \author Pepe Gascó Bule
+* \version 1.0
+* \date 2023
+ */
 #include "libraries.h"
 #include "ServicioEnEmisora.h"
 
